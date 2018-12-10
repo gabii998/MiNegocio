@@ -1,0 +1,18 @@
+.tittle-bar{
+    -webkit-app-region: drag;
+}
+.tittle-bar-button{
+    -webkit-app-region: no-drag;
+    top: 0px;
+}
+.nav-item{
+    -webkit-app-region: no-drag;
+}
+.tbutton{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    outline: none !important;
+    box-shadow:none;
+    border-radius: 0%;
+    margin-bottom: 7vh;
+}

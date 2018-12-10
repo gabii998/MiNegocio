@@ -1,3 +1,29 @@
+<div class="container-fluid text-center tittle-bar">
+  <div class="row">
+      <div class="mt-2 col">
+          <ul class="nav nav-tabs mt-2 ml-2">
+              <li class="nav-item">
+                <a [ngClass]="['nav-link',activoInicio]" routerLink="">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="['nav-link',activoStock]" routerLink="Stock">Stock</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="['nav-link',activoVentas]" routerLink="Ventas">Ventas</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="['nav-link',activoClientes]" routerLink="Clientes">Clientes</a>
+              </li>
+            </ul>
+      </div>
+      <div class="text-right tittle-bar-button btn-group">
+        <button id="min-btn" class="btn btn-primary tbutton" (click)="listenerVentana('minimizar')">-</button> 
+        <button class="btn btn-primary tbutton" (click)="listenerVentana('maximizar')">+</button>
+        <button class="btn btn-primary tbutton" (click)="listenerVentana('cerrar')">x</button>
+      </div>
+  </div>
+</div>
+<!--
 <ul class="nav nav-tabs mt-2 ml-2">
   <li class="nav-item">
     <a [ngClass]="['nav-link',activoInicio]" routerLink="">Inicio</a>
@@ -8,4 +34,7 @@
   <li class="nav-item">
     <a [ngClass]="['nav-link',activoVentas]" routerLink="Ventas">Ventas</a>
   </li>
-</ul>
+  <li class="nav-item">
+    <a [ngClass]="['nav-link',activoClientes]" routerLink="Clientes">Clientes</a>
+  </li>
+</ul>-->
