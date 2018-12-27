@@ -9,6 +9,8 @@ function createWindow() {
   // Crea la ventana del navegador.
   win = new BrowserWindow({ width: 800, height: 600,
                             frame: false,
+                            icon: __dirname+'/assets/icon.png',
+                            title:'Mi negocio'
                              })
   win.setMenu(null);
   win.setTitle("Gestión de ventas");
