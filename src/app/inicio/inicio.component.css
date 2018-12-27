@@ -3,3 +3,6 @@
     box-shadow:none;
     border-radius: 0;
 }
+.container-fluid{
+    margin-top: 75px;
+}

@@ -1,18 +1,30 @@
 .tittle-bar{
     -webkit-app-region: drag;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+    padding-bottom: 0%;
+    border-top: 1px solid #999999;
+    
 }
+
 .tittle-bar-button{
     -webkit-app-region: no-drag;
-    top: 0px;
 }
 .nav-item{
     -webkit-app-region: no-drag;
 }
 .tbutton{
+    max-width: 30px;
+    min-width: 30px;
+    max-height: 30px;
+    min-height: 30px;
     padding-top: 0%;
     padding-bottom: 0%;
     outline: none !important;
     box-shadow:none;
     border-radius: 0%;
     margin-bottom: 7vh;
+    font-size: 17px;
 }

@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron": "ng build && electron .",
-    "electron-build": "ng build"
+    "electron-build": "ng build",
+    "rebuild": "electron-rebuild -f -w sqlite3"
   },
   "private": true,
   "dependencies": {
@@ -30,10 +31,12 @@
     "datatables.net-bs4": "^1.10.19",
     "datatables.net-dt": "^1.10.19",
     "electron": "^3.0.10",
+    "express": "^4.16.4",
     "jquery": "^3.3.1",
     "ngx-electron": "^2.0.0",
     "popper.js": "^1.14.6",
     "rxjs": "~6.3.3",
+    "sqlite3": "^4.0.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
@@ -47,6 +50,7 @@
     "@types/jquery": "^3.3.22",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
+    "electron-rebuild": "^1.8.2",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.0.0",

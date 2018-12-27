@@ -1,9 +1,11 @@
-<div class="container-fluid">
-  <div class="row mt-2 ml-2">
-    <button class="btn btn-primary">Nueva venta</button>
-    <button class="btn btn-primary">Nuevo cliente</button>
+  <div class="container-fluid">
+    <div class="row mt-2 ml-2">
+      <button class="btn btn-primary" data-toggle="modal" data-target="#modalVenta">Nueva venta</button>
+      <button class="btn btn-primary" data-toggle="modal" data-target="#modalCliente">Nuevo cliente</button>
+    </div>
+    <div class="row mt-2 ml-2">
+      
+    </div>
   </div>
-  <div class="row mt-2 ml-2">
-    
-  </div>
-</div>
+  <app-modal-cliente></app-modal-cliente>
+  <app-modal-venta></app-modal-venta>

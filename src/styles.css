@@ -8,3 +8,6 @@ body{
     outline: none !important;
     box-shadow:none;
 }
+*{
+    font-size: 14px;
+}
